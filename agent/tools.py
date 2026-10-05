@@ -59,7 +59,7 @@ def lookup_customer(account_id: str) -> dict[str, Any]:
         return {
             "error": (
                 f"no record matches {account_id}; "
-                "the identifier is two letters, a hyphen, four digits, for example A-1001"
+                "the identifier is one letter, a hyphen, four digits, for example A-1001"
             )
         }
     return row
@@ -126,7 +126,7 @@ TOOL_DEFINITIONS: list[dict[str, Any]] = [
             "properties": {
                 "account_id": {
                     "type": "string",
-                    "description": "Account identifier, two letters, hyphen, four digits, for example A-1001",
+                    "description": "Account identifier, one letter, hyphen, four digits, for example A-1001",
                 }
             },
         },

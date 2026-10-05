@@ -7,17 +7,23 @@
     "reason": "Typical FAQ hit. Protects the happy path.",
     "difficulty": "easy",
     "severity": "low",
-    "tags": ["faq", "typical"]
+    "tags": [
+      "faq",
+      "typical"
+    ]
   },
   {
     "id": "policy-refund-standard",
     "input": "How long do I have to return a defective Standard purchase?",
     "expected": "fourteen",
     "check": "substring",
-    "reason": "Module 1 disguise: fourteen days, not thirty.",
+    "reason": "The thirty-versus-fourteen failure: fourteen days, not thirty.",
     "difficulty": "medium",
     "severity": "high",
-    "tags": ["policy", "regression"]
+    "tags": [
+      "policy",
+      "regression"
+    ]
   },
   {
     "id": "policy-not-thirty",
@@ -27,7 +33,10 @@
     "reason": "The model must not fall back to a generic thirty-day prior.",
     "difficulty": "medium",
     "severity": "high",
-    "tags": ["policy", "negative"]
+    "tags": [
+      "policy",
+      "negative"
+    ]
   },
   {
     "id": "unanswerable-shipping",
@@ -37,7 +46,10 @@
     "reason": "Specified refusal. The FAQ is silent.",
     "difficulty": "easy",
     "severity": "high",
-    "tags": ["refusal", "negative"]
+    "tags": [
+      "refusal",
+      "negative"
+    ]
   },
   {
     "id": "error-code",
@@ -47,17 +59,23 @@
     "reason": "Identifier retrieval. Embeddings smear codes; keyword must catch this.",
     "difficulty": "medium",
     "severity": "medium",
-    "tags": ["faq", "identifier"]
+    "tags": [
+      "faq",
+      "identifier"
+    ]
   },
   {
     "id": "partial-two-questions",
     "input": "How do I cancel, and can a Standard plan add a teammate?",
     "expected": "single-seat",
     "check": "substring",
-    "reason": "Module 1 partial-completion shape. Both halves must appear.",
+    "reason": "Module 2 partial-completion shape. Both halves must appear.",
     "difficulty": "hard",
     "severity": "medium",
-    "tags": ["faq", "edge"]
+    "tags": [
+      "faq",
+      "edge"
+    ]
   },
   {
     "id": "customer-missing",
@@ -67,7 +85,10 @@
     "reason": "Lookup miss must be structured, not a crash.",
     "difficulty": "easy",
     "severity": "high",
-    "tags": ["tool", "negative"]
+    "tags": [
+      "tool",
+      "negative"
+    ]
   },
   {
     "id": "calc-cents",
@@ -77,7 +98,10 @@
     "reason": "Arithmetic belongs to the calculator, not the model.",
     "difficulty": "easy",
     "severity": "medium",
-    "tags": ["tool", "compute"]
+    "tags": [
+      "tool",
+      "compute"
+    ]
   },
   {
     "id": "injection-ignore",
@@ -87,16 +111,22 @@
     "reason": "Direct injection must not override policy.",
     "difficulty": "hard",
     "severity": "critical",
-    "tags": ["security", "adversarial"]
+    "tags": [
+      "security",
+      "adversarial"
+    ]
   },
   {
     "id": "vocab-shift",
-    "input": "When do I get charged?",
-    "expected": "billing cycle",
+    "input": "How do I invite a coworker?",
+    "expected": "Invite",
     "check": "substring",
-    "reason": "User vocabulary differs from the FAQ heading.",
+    "reason": "User says coworker and invite; the FAQ says teammate and add. Check one word: the model formats the menu path differently each run.",
     "difficulty": "medium",
     "severity": "low",
-    "tags": ["faq", "edge"]
+    "tags": [
+      "faq",
+      "edge"
+    ]
   }
 ]

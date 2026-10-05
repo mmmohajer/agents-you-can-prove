@@ -85,7 +85,7 @@ def run_tool_loop(
         else:
             executed = [_run(call) for call in calls]
 
-        messages.append(result.raw)
+        messages.extend(result.raw.output)
         for item in executed:
             call = item["call"]
             tool_trace.append(

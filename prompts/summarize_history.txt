@@ -1,0 +1,11 @@
+---
+version: v1
+date: 2026-10-04
+note: Compress old turns. Do not drop account identifiers or decisions.
+---
+<instructions>
+Summarize the conversation below. Keep account identifiers, decisions, and failed approaches. Drop greetings.
+</instructions>
+<context>
+{history}
+</context>

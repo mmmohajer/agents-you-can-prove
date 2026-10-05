@@ -1,0 +1,7 @@
+account_id,name,plan,signup_date,status,balance_cents
+A-1001,Amira Haddad,standard,2024-03-05,active,0
+A-1002,James Okonkwo,plus,2023-11-18,active,2400
+A-1003,Sofia Alvarez,enterprise,2022-06-01,active,0
+A-1004,Kenji Sato,standard,2025-01-12,past_due,8900
+A-1005,Priya Shah,plus,2024-08-22,cancelled,0
+A-4471,Nora Lind,enterprise,2021-09-30,active,15000

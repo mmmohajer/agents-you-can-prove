@@ -1,0 +1,31 @@
+# Product FAQ
+
+Q: How do I reset my password?
+A: Open the account menu, choose Security, then Reset password. We email a link that expires in 30 minutes.
+
+Q: What plans are available?
+A: Standard, Plus, and Enterprise. Standard is self-serve. Plus adds priority support. Enterprise includes a named account manager and a custom refund window.
+
+Q: When do I get charged?
+A: We bill on the billing cycle start date printed on the invoice. For most Standard and Plus customers that is the same day of the month they signed up.
+
+Q: How do I cancel?
+A: Standard and Plus can cancel from Billing. Access continues until the end of the paid period. Enterprise cancellations go through the account manager.
+
+Q: Do you have a mobile app?
+A: Yes. iOS and Android. Features match the web app except batch exports, which are web-only.
+
+Q: What is error E-4471?
+A: E-4471 means the payment method was declined. Update the card under Billing and retry. It is not a product outage.
+
+Q: Can I export my data?
+A: Plus and Enterprise can export from Settings, Data export. Standard customers can request a one-time export from support.
+
+Q: How do I add a teammate?
+A: Plus and Enterprise: Settings, Team, Invite. Standard is a single-seat plan and cannot add teammates.
+
+Q: What languages does the product support?
+A: English, Spanish, French, German, and Japanese in the UI. Support replies in English.
+
+Q: Is there an API?
+A: Plus and Enterprise have a REST API. Standard does not. API keys live under Settings, Developers.

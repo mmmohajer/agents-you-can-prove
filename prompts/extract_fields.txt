@@ -1,0 +1,11 @@
+---
+version: v1
+date: 2026-10-04
+note: Structured extraction. Inventing a missing field is a failure.
+---
+<instructions>
+Extract a {schema_name} object from the input. If a required fact is not in the text, do not invent it.
+</instructions>
+<context>
+{input_text}
+</context>

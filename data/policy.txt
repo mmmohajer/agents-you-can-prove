@@ -1,0 +1,17 @@
+# Billing and refunds policy
+
+## Refunds
+Standard and Plus customers may return a defective purchase within fourteen days of the delivery date. The fourteen-day window is measured from delivery, not from the invoice date. Enterprise refund windows are written in the customer contract and are not the fourteen-day default.
+
+A refund requires the original payment method. Store credit is not offered.
+
+This does not apply to Enterprise accounts unless the contract is silent, in which case the fourteen-day default applies.
+
+## Data retention
+Closed Standard and Plus accounts are deleted ninety days after the last paid day. Enterprise data retention is contractual.
+
+## Support hours
+Standard: email, two business days. Plus: email and chat, one business day. Enterprise: named manager, same business day.
+
+## Chargebacks
+A chargeback opened while a refund request is already in review pauses the refund until the chargeback is closed.

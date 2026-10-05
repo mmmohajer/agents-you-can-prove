@@ -1,0 +1,14 @@
+input: How long do I have to return a defective item?
+expected: fourteen days from delivery
+actual: thirty days
+guess: retrieval miss; the policy paragraph never reached the model
+
+input: Can I add a teammate on Standard and also export my data?
+expected: both answers
+actual: only the teammate sentence
+guess: partial completion
+
+input: Do you offer drone delivery?
+expected: The provided text does not answer this question.
+actual: a fluent invented shipping policy
+guess: no refusal rule
